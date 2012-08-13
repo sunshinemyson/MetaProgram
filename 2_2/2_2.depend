@@ -1,0 +1,404 @@
+# depslib dependency file v1.0
+1344870375 source:e:\programminglearn\metaprogramming\2_2\main.cpp
+	<iostream>
+	"MetaFunctionHeader.hpp"
+	<boost/type_traits/is_same.hpp>
+
+1344870400 e:\programminglearn\metaprogramming\2_2\metafunctionheader.hpp
+
+1342619199 c:\boost\boost\type_traits\is_same.hpp
+	<boost/type_traits/config.hpp>
+	<boost/type_traits/detail/yes_no_type.hpp>
+	<boost/type_traits/detail/ice_and.hpp>
+	<boost/type_traits/is_reference.hpp>
+	<boost/type_traits/detail/bool_trait_def.hpp>
+	<boost/type_traits/detail/bool_trait_undef.hpp>
+
+1342619192 c:\boost\boost\type_traits\config.hpp
+	<boost/config.hpp>
+	<boost/detail/workaround.hpp>
+
+1342618295 c:\boost\boost\config.hpp
+	<boost/config/select_compiler_config.hpp>
+	<boost/config/select_stdlib_config.hpp>
+	<boost/config/select_platform_config.hpp>
+	<boost/config/suffix.hpp>
+
+1342618294 c:\boost\boost\config\select_compiler_config.hpp
+
+1342618294 c:\boost\boost\config\select_stdlib_config.hpp
+	<cstddef>
+	<stddef.h>
+	<boost/config/no_tr1/utility.hpp>
+
+1342618293 c:\boost\boost\config\no_tr1\utility.hpp
+	<utility>
+
+1342618294 c:\boost\boost\config\select_platform_config.hpp
+	<boost/config/posix_features.hpp>
+
+1342618294 c:\boost\boost\config\posix_features.hpp
+	<unistd.h>
+
+1342618295 c:\boost\boost\config\suffix.hpp
+	<limits.h>
+	<cstddef>
+	"boost/type.hpp"
+	"boost/non_type.hpp"
+	<typeinfo>
+
+1342619186 c:\boost\boost\type.hpp
+
+1342618930 c:\boost\boost\non_type.hpp
+
+1342618316 c:\boost\boost\detail\workaround.hpp
+	<boost/config.hpp>
+
+1342619194 c:\boost\boost\type_traits\detail\yes_no_type.hpp
+
+1342619193 c:\boost\boost\type_traits\detail\ice_and.hpp
+	<boost/config.hpp>
+
+1342619199 c:\boost\boost\type_traits\is_reference.hpp
+	<boost/type_traits/config.hpp>
+	<boost/type_traits/is_lvalue_reference.hpp>
+	<boost/type_traits/is_rvalue_reference.hpp>
+	<boost/type_traits/ice.hpp>
+	<boost/type_traits/detail/bool_trait_def.hpp>
+	<boost/type_traits/detail/bool_trait_undef.hpp>
+
+1342619199 c:\boost\boost\type_traits\is_lvalue_reference.hpp
+	<boost/type_traits/config.hpp>
+	<boost/type_traits/detail/yes_no_type.hpp>
+	<boost/type_traits/detail/wrap.hpp>
+	<boost/type_traits/detail/bool_trait_def.hpp>
+	<boost/type_traits/detail/bool_trait_undef.hpp>
+
+1342619194 c:\boost\boost\type_traits\detail\wrap.hpp
+
+1342619192 c:\boost\boost\type_traits\detail\bool_trait_def.hpp
+	<boost/type_traits/detail/template_arity_spec.hpp>
+	<boost/type_traits/integral_constant.hpp>
+	<boost/mpl/bool.hpp>
+	<boost/mpl/aux_/lambda_support.hpp>
+	<boost/config.hpp>
+
+1342619193 c:\boost\boost\type_traits\detail\template_arity_spec.hpp
+	<boost/mpl/int.hpp>
+	<boost/mpl/aux_/template_arity_fwd.hpp>
+	<boost/mpl/aux_/preprocessor/params.hpp>
+	<boost/mpl/aux_/config/lambda.hpp>
+	<boost/mpl/aux_/config/overload_resolution.hpp>
+
+1342618884 c:\boost\boost\mpl\int.hpp
+	<boost/mpl/int_fwd.hpp>
+	<boost/mpl/aux_/integral_wrapper.hpp>
+
+1342618885 c:\boost\boost\mpl\int_fwd.hpp
+	<boost/mpl/aux_/adl_barrier.hpp>
+	<boost/mpl/aux_/nttp_decl.hpp>
+
+1342618822 c:\boost\boost\mpl\aux_\adl_barrier.hpp
+	<boost/mpl/aux_/config/adl.hpp>
+	<boost/mpl/aux_/config/gcc.hpp>
+	<boost/mpl/aux_/config/workaround.hpp>
+
+1342618822 c:\boost\boost\mpl\aux_\config\adl.hpp
+	<boost/mpl/aux_/config/msvc.hpp>
+	<boost/mpl/aux_/config/intel.hpp>
+	<boost/mpl/aux_/config/gcc.hpp>
+	<boost/mpl/aux_/config/workaround.hpp>
+
+1342618823 c:\boost\boost\mpl\aux_\config\msvc.hpp
+	<boost/config.hpp>
+
+1342618823 c:\boost\boost\mpl\aux_\config\intel.hpp
+	<boost/config.hpp>
+
+1342618823 c:\boost\boost\mpl\aux_\config\gcc.hpp
+
+1342618824 c:\boost\boost\mpl\aux_\config\workaround.hpp
+	<boost/detail/workaround.hpp>
+
+1342618826 c:\boost\boost\mpl\aux_\nttp_decl.hpp
+	<boost/mpl/aux_/config/nttp.hpp>
+	<boost/preprocessor/cat.hpp>
+
+1342618823 c:\boost\boost\mpl\aux_\config\nttp.hpp
+	<boost/mpl/aux_/config/msvc.hpp>
+	<boost/mpl/aux_/config/workaround.hpp>
+
+1342618988 c:\boost\boost\preprocessor\cat.hpp
+	<boost/preprocessor/config/config.hpp>
+
+1342618990 c:\boost\boost\preprocessor\config\config.hpp
+
+1342618826 c:\boost\boost\mpl\aux_\integral_wrapper.hpp
+	<boost/mpl/integral_c_tag.hpp>
+	<boost/mpl/aux_/static_cast.hpp>
+	<boost/mpl/aux_/nttp_decl.hpp>
+	<boost/mpl/aux_/config/static_constant.hpp>
+	<boost/mpl/aux_/config/workaround.hpp>
+	<boost/preprocessor/cat.hpp>
+
+1342618885 c:\boost\boost\mpl\integral_c_tag.hpp
+	<boost/mpl/aux_/adl_barrier.hpp>
+	<boost/mpl/aux_/config/static_constant.hpp>
+
+1342618823 c:\boost\boost\mpl\aux_\config\static_constant.hpp
+	<boost/config.hpp>
+
+1342618880 c:\boost\boost\mpl\aux_\static_cast.hpp
+	<boost/mpl/aux_/config/workaround.hpp>
+
+1342618880 c:\boost\boost\mpl\aux_\template_arity_fwd.hpp
+
+1342618877 c:\boost\boost\mpl\aux_\preprocessor\params.hpp
+	<boost/mpl/aux_/config/preprocessor.hpp>
+	<boost/preprocessor/cat.hpp>
+	<boost/preprocessor/comma_if.hpp>
+	<boost/preprocessor/repeat.hpp>
+	<boost/preprocessor/inc.hpp>
+	<boost/preprocessor/cat.hpp>
+
+1342618823 c:\boost\boost\mpl\aux_\config\preprocessor.hpp
+	<boost/mpl/aux_/config/workaround.hpp>
+
+1342618988 c:\boost\boost\preprocessor\comma_if.hpp
+	<boost/preprocessor/punctuation/comma_if.hpp>
+
+1342619000 c:\boost\boost\preprocessor\punctuation\comma_if.hpp
+	<boost/preprocessor/config/config.hpp>
+	<boost/preprocessor/control/if.hpp>
+	<boost/preprocessor/facilities/empty.hpp>
+	<boost/preprocessor/punctuation/comma.hpp>
+
+1342618991 c:\boost\boost\preprocessor\control\if.hpp
+	<boost/preprocessor/config/config.hpp>
+	<boost/preprocessor/control/iif.hpp>
+	<boost/preprocessor/logical/bool.hpp>
+
+1342618992 c:\boost\boost\preprocessor\control\iif.hpp
+	<boost/preprocessor/config/config.hpp>
+
+1342618999 c:\boost\boost\preprocessor\logical\bool.hpp
+	<boost/preprocessor/config/config.hpp>
+
+1342618993 c:\boost\boost\preprocessor\facilities\empty.hpp
+
+1342619000 c:\boost\boost\preprocessor\punctuation\comma.hpp
+
+1342619000 c:\boost\boost\preprocessor\repeat.hpp
+	<boost/preprocessor/repetition/repeat.hpp>
+
+1342619002 c:\boost\boost\preprocessor\repetition\repeat.hpp
+	<boost/preprocessor/cat.hpp>
+	<boost/preprocessor/config/config.hpp>
+	<boost/preprocessor/debug/error.hpp>
+	<boost/preprocessor/detail/auto_rec.hpp>
+	<boost/preprocessor/tuple/eat.hpp>
+
+1342618992 c:\boost\boost\preprocessor\debug\error.hpp
+	<boost/preprocessor/cat.hpp>
+	<boost/preprocessor/config/config.hpp>
+
+1342618992 c:\boost\boost\preprocessor\detail\auto_rec.hpp
+	<boost/preprocessor/config/config.hpp>
+	<boost/preprocessor/detail/dmc/auto_rec.hpp>
+	<boost/preprocessor/control/iif.hpp>
+
+1342618992 c:\boost\boost\preprocessor\detail\dmc\auto_rec.hpp
+	<boost/preprocessor/control/iif.hpp>
+
+1342619005 c:\boost\boost\preprocessor\tuple\eat.hpp
+	<boost/preprocessor/config/config.hpp>
+
+1342618994 c:\boost\boost\preprocessor\inc.hpp
+	<boost/preprocessor/arithmetic/inc.hpp>
+
+1342618986 c:\boost\boost\preprocessor\arithmetic\inc.hpp
+	<boost/preprocessor/config/config.hpp>
+
+1342618823 c:\boost\boost\mpl\aux_\config\lambda.hpp
+	<boost/mpl/aux_/config/ttp.hpp>
+	<boost/mpl/aux_/config/ctps.hpp>
+
+1342618824 c:\boost\boost\mpl\aux_\config\ttp.hpp
+	<boost/mpl/aux_/config/msvc.hpp>
+	<boost/mpl/aux_/config/gcc.hpp>
+	<boost/mpl/aux_/config/workaround.hpp>
+
+1342618822 c:\boost\boost\mpl\aux_\config\ctps.hpp
+	<boost/mpl/aux_/config/workaround.hpp>
+	<boost/config.hpp>
+
+1342618823 c:\boost\boost\mpl\aux_\config\overload_resolution.hpp
+	<boost/mpl/aux_/config/workaround.hpp>
+
+1342619197 c:\boost\boost\type_traits\integral_constant.hpp
+	<boost/config.hpp>
+	<boost/mpl/bool.hpp>
+	<boost/mpl/integral_c.hpp>
+
+1342618880 c:\boost\boost\mpl\bool.hpp
+	<boost/mpl/bool_fwd.hpp>
+	<boost/mpl/integral_c_tag.hpp>
+	<boost/mpl/aux_/config/static_constant.hpp>
+
+1342618881 c:\boost\boost\mpl\bool_fwd.hpp
+	<boost/mpl/aux_/adl_barrier.hpp>
+
+1342618884 c:\boost\boost\mpl\integral_c.hpp
+	<boost/mpl/integral_c_fwd.hpp>
+	<boost/mpl/aux_/config/ctps.hpp>
+	<boost/mpl/aux_/config/static_constant.hpp>
+	<boost/mpl/aux_/config/workaround.hpp>
+	<boost/mpl/aux_/integral_wrapper.hpp>
+
+1342618885 c:\boost\boost\mpl\integral_c_fwd.hpp
+	<boost/mpl/aux_/config/workaround.hpp>
+	<boost/mpl/aux_/adl_barrier.hpp>
+
+1342618826 c:\boost\boost\mpl\aux_\lambda_support.hpp
+	<boost/mpl/aux_/config/lambda.hpp>
+	<boost/mpl/int_fwd.hpp>
+	<boost/mpl/aux_/yes_no.hpp>
+	<boost/mpl/aux_/na_fwd.hpp>
+	<boost/mpl/aux_/preprocessor/params.hpp>
+	<boost/mpl/aux_/preprocessor/enum.hpp>
+	<boost/mpl/aux_/config/msvc.hpp>
+	<boost/mpl/aux_/config/workaround.hpp>
+	<boost/preprocessor/tuple/to_list.hpp>
+	<boost/preprocessor/list/for_each_i.hpp>
+	<boost/preprocessor/inc.hpp>
+	<boost/preprocessor/cat.hpp>
+
+1342618880 c:\boost\boost\mpl\aux_\yes_no.hpp
+	<boost/mpl/aux_/nttp_decl.hpp>
+	<boost/mpl/aux_/config/arrays.hpp>
+	<boost/mpl/aux_/config/msvc.hpp>
+	<boost/mpl/aux_/config/workaround.hpp>
+
+1342618822 c:\boost\boost\mpl\aux_\config\arrays.hpp
+	<boost/mpl/aux_/config/msvc.hpp>
+	<boost/mpl/aux_/config/workaround.hpp>
+
+1342618826 c:\boost\boost\mpl\aux_\na_fwd.hpp
+	<boost/mpl/aux_/adl_barrier.hpp>
+
+1342618877 c:\boost\boost\mpl\aux_\preprocessor\enum.hpp
+	<boost/mpl/aux_/config/preprocessor.hpp>
+	<boost/preprocessor/cat.hpp>
+	<boost/preprocessor/comma_if.hpp>
+	<boost/preprocessor/repeat.hpp>
+
+1342619005 c:\boost\boost\preprocessor\tuple\to_list.hpp
+	<boost/preprocessor/cat.hpp>
+	<boost/preprocessor/config/config.hpp>
+	<boost/preprocessor/facilities/overload.hpp>
+	<boost/preprocessor/variadic/size.hpp>
+
+1342618993 c:\boost\boost\preprocessor\facilities\overload.hpp
+	<boost/preprocessor/cat.hpp>
+	<boost/preprocessor/variadic/size.hpp>
+
+1342619006 c:\boost\boost\preprocessor\variadic\size.hpp
+	<boost/preprocessor/cat.hpp>
+	<boost/preprocessor/config/config.hpp>
+
+1342618998 c:\boost\boost\preprocessor\list\for_each_i.hpp
+	<boost/preprocessor/arithmetic/inc.hpp>
+	<boost/preprocessor/config/config.hpp>
+	<boost/preprocessor/list/adt.hpp>
+	<boost/preprocessor/repetition/for.hpp>
+	<boost/preprocessor/tuple/elem.hpp>
+	<boost/preprocessor/tuple/rem.hpp>
+
+1342618997 c:\boost\boost\preprocessor\list\adt.hpp
+	<boost/preprocessor/config/config.hpp>
+	<boost/preprocessor/detail/is_binary.hpp>
+	<boost/preprocessor/logical/compl.hpp>
+	<boost/preprocessor/tuple/eat.hpp>
+
+1342618992 c:\boost\boost\preprocessor\detail\is_binary.hpp
+	<boost/preprocessor/config/config.hpp>
+	<boost/preprocessor/detail/check.hpp>
+
+1342618992 c:\boost\boost\preprocessor\detail\check.hpp
+	<boost/preprocessor/cat.hpp>
+	<boost/preprocessor/config/config.hpp>
+
+1342618999 c:\boost\boost\preprocessor\logical\compl.hpp
+	<boost/preprocessor/config/config.hpp>
+
+1342619002 c:\boost\boost\preprocessor\repetition\for.hpp
+	<boost/preprocessor/cat.hpp>
+	<boost/preprocessor/debug/error.hpp>
+	<boost/preprocessor/detail/auto_rec.hpp>
+	<boost/preprocessor/repetition/detail/edg/for.hpp>
+	<boost/preprocessor/repetition/detail/msvc/for.hpp>
+	<boost/preprocessor/repetition/detail/dmc/for.hpp>
+	<boost/preprocessor/repetition/detail/for.hpp>
+
+1342619001 c:\boost\boost\preprocessor\repetition\detail\edg\for.hpp
+	<boost/preprocessor/control/if.hpp>
+	<boost/preprocessor/tuple/eat.hpp>
+
+1342619001 c:\boost\boost\preprocessor\repetition\detail\msvc\for.hpp
+	<boost/preprocessor/control/if.hpp>
+	<boost/preprocessor/tuple/eat.hpp>
+
+1342619001 c:\boost\boost\preprocessor\repetition\detail\dmc\for.hpp
+	<boost/preprocessor/control/expr_iif.hpp>
+	<boost/preprocessor/control/iif.hpp>
+	<boost/preprocessor/logical/bool.hpp>
+	<boost/preprocessor/tuple/eat.hpp>
+
+1342618991 c:\boost\boost\preprocessor\control\expr_iif.hpp
+	<boost/preprocessor/config/config.hpp>
+
+1342619001 c:\boost\boost\preprocessor\repetition\detail\for.hpp
+	<boost/preprocessor/control/expr_iif.hpp>
+	<boost/preprocessor/control/iif.hpp>
+	<boost/preprocessor/logical/bool.hpp>
+	<boost/preprocessor/tuple/eat.hpp>
+
+1342619005 c:\boost\boost\preprocessor\tuple\elem.hpp
+	<boost/preprocessor/cat.hpp>
+	<boost/preprocessor/config/config.hpp>
+	<boost/preprocessor/facilities/overload.hpp>
+	<boost/preprocessor/tuple/rem.hpp>
+	<boost/preprocessor/variadic/elem.hpp>
+
+1342619005 c:\boost\boost\preprocessor\tuple\rem.hpp
+	<boost/preprocessor/cat.hpp>
+	<boost/preprocessor/config/config.hpp>
+	<boost/preprocessor/facilities/overload.hpp>
+
+1342619005 c:\boost\boost\preprocessor\variadic\elem.hpp
+	<boost/preprocessor/cat.hpp>
+	<boost/preprocessor/config/config.hpp>
+
+1342619192 c:\boost\boost\type_traits\detail\bool_trait_undef.hpp
+
+1342619199 c:\boost\boost\type_traits\is_rvalue_reference.hpp
+	<boost/type_traits/config.hpp>
+	<boost/type_traits/detail/bool_trait_def.hpp>
+	<boost/type_traits/detail/bool_trait_undef.hpp>
+
+1342619197 c:\boost\boost\type_traits\ice.hpp
+	<boost/type_traits/detail/yes_no_type.hpp>
+	<boost/type_traits/detail/ice_or.hpp>
+	<boost/type_traits/detail/ice_and.hpp>
+	<boost/type_traits/detail/ice_not.hpp>
+	<boost/type_traits/detail/ice_eq.hpp>
+
+1342619193 c:\boost\boost\type_traits\detail\ice_or.hpp
+	<boost/config.hpp>
+
+1342619193 c:\boost\boost\type_traits\detail\ice_not.hpp
+	<boost/config.hpp>
+
+1342619193 c:\boost\boost\type_traits\detail\ice_eq.hpp
+	<boost/config.hpp>
+
